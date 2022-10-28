@@ -1,0 +1,67 @@
+body{
+    width:100vw;
+}
+
+p{
+    font-size: 1rem;
+
+}
+
+@media screen and (min-width: 768px) {
+	#inicio {
+		background-color: #000000;
+        color:#fff;
+	}
+    p{
+        font-size: 2rem;
+
+    }
+}
+@media screen and (min-width: 1080px) {
+	#inicio {
+		background-color: #f7b80b;
+        color:rgb(186, 15, 242);
+	}
+    p{
+        font-size: 3rem;
+
+    }
+}
+.container{
+    width: 80%;
+    background-color: #555
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #inicio{ text-align: justify;}
+}
+
+}
+input{
+    margin-bottom: 1rem;
+    width: 200px;
+    outline: none;
+}
+
+fieldset{
+    width: 210px;
+    margin-bottom: 1rem;
+}
+
+.calendario{
+    width: 100px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    background: linear-gradient(90deg, blue, darkblue, black);
+    color: white;
+}
+

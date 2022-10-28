@@ -1,0 +1,18 @@
+h1{
+    background-color: yellow;
+    color: red;
+    font-family: 'Charm', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    background-color: #999;
+}
+body{
+background-image: url(https://fondosmil.com/fondo/2259.jpg);
+color: white;
+}
+div{
+    background-color: darkblue;
+    border-radius: 0px 50px 50px 0px;
+}
