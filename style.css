@@ -1,67 +1,67 @@
+
 body{
-    width:100vw;
+    background: linear-gradient(90deg, darkred, black);
+    color: white;
+    font-family: georgia;
 }
 
-p{
-    font-size: 1rem;
-
-}
-
-@media screen and (min-width: 768px) {
-	#inicio {
-		background-color: #000000;
-        color:#fff;
-	}
-    p{
-        font-size: 2rem;
-
-    }
-}
-@media screen and (min-width: 1080px) {
-	#inicio {
-		background-color: #f7b80b;
-        color:rgb(186, 15, 242);
-	}
-    p{
-        font-size: 3rem;
-
-    }
-}
-.container{
-    width: 80%;
-    background-color: #555
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    #inicio{ text-align: justify;}
-}
-
-}
-input{
-    margin-bottom: 1rem;
-    width: 200px;
-    outline: none;
-}
-
-fieldset{
-    width: 210px;
-    margin-bottom: 1rem;
-}
-
-.calendario{
-    width: 100px;
-}
-
-.contacto{
+h1{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-body{
-    background: linear-gradient(90deg, blue, darkblue, black);
-    color: white;
+#navbar {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background: linear-gradient(white, darkred);
+    height: 50px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none; /*Aplicando esta propiedad y este valor, vamos a poder eliminar las bullets y los números*/
+    font-size:0; /* truco por el uso de inline-block*/
+}
+.navbar{
+    display: inline-block;
+    position:relative;
+    font-size: 14px;
+}
+li a {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+    ul li:hover ul {
+    display:block;
+}
+    
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 200px;
+    outline: none;
+}
+ 
+fieldset{
+    width: 210px;
+    margin: 1rem;
+}
+ 
+.calendario{
+    width: 100px;
 }
 
