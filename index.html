@@ -3,44 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Roboto:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Roboto:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="StyleSheet" href="style.css" type="text/css" media="screen"/>
+    <link rel="StyleSheet" href="style.css" type="text/css" media="screen"/>
+    <script src="https://kit.fontawesome.com/58ed9529f3.js" crossorigin="anonymous"></script>
     <title>Presentación - Andrea Perugini Ruiz</title>
 </head>
 <body>
-   <div class="inicio">
-    <h1>Andrea Perugini Ruiz</h1>
+    <header>
+        <div class="inicio">
+             <h1>Andrea Perugini Ruiz</h1>
+     
+             <nav>
+                 <ul class="nav">
+                     <li class="navbar"><a href="./index.html">Inicio</a></li>
+                     <li class="navbar"><a href="#enlace-interno">Mis cursos</a></li>
+                     <li class="navbar"><a href="#footer">Contacto</a></li>    
+                 </ul>
+             </nav>
+        </div>
+    </header>
 
-    <nav>
-        <ul class="nav">
-            <li class="navbar"><a href="./index.html">Inicio</a></li>
-            <li class="navbar"><a href="./cursos.html">Mis cursos</a></li>
-            <li class="navbar"><a href="./formulario.html">Contacto</a></li>    
-        </ul>
-    </nav>
-   </div>
+   <section>
+       <div>
+           <p class="frase">"El cielo no es el límite. El límite está dentro de ti. Elévate, supérate, confía y rétate". <em>Ismael Cala</em></p>
+       </div>
 
-    <div>
-        <p class="frase">"El cielo no es el límite. El límite está dentro de ti. Elévate, supérate, confía y rétate". <em>Ismael Cala</em></p>
-    </div>
+       <div class="container1">
+           <div class="card1">
+               <div class="container-imagen"><img src="./img/andrea-img.jpg" class="cardImg" alt="Imagen Personal"></div>
+               
+               <div class="contnCard1">
+                    <div class="parrafos">
+                        <p>Soy Venezolana, con residencia en Buenos Aires-Argenina. En mejora continua cada día, ampliando mis habilidades en el área de programación para ser tomada en cuenta por un equipo que aprecie el valor de mi esfuerce y apueste en mi crecimiento.</p><br>
+                        <p>He desarrollado habilidades en el área de análisis de datos por lo que mi objetivo principal es conocer las herramientas de procesamiento y análisis en programación, asi como tambien implementar mas plataformas para armado de dashboard creativos.</p><br>
+                        <p>Actualmente estoy aprendiendo desarrollo frontend inicial en el programa BA multiplica junto con la UTN y, cursando Big Data Analytics en el programa Codo a codo de la Ciudad de Buenos Aires donde aprenderé el maneje de flujo de datos masivos en planilla de cálculo, armado de dashboard en Google Data Studio y Power BI, manejo de librerías más importantes en Python.</p>
+                    </div>
+                   <a href="https://drive.google.com/file/d/1jnGk8HzUvfPjaUFxM7boe1PwHliC098L/view?usp=share_link" target="_blank" class="botonPrimario">Descargar mi cv</a>
+               </div> 
+           </div>
+       </div>
+   </section>
+    
+   <section>
+       <h2 id="enlace-interno">Mis Cursos</h2>
 
-    <div class="container1">
-        <div class="card1">
-            <img src="./img/andrea-img.jpg" class="cardImg" alt="Imagen Personal">
-            <div class="contnCard1">
-                <p>Soy Venezolana, con residencia en Buenos Aires-Argenina. En mejora continua cada día, ampliando mis habilidades en el área de programación.
-                Actualmente estoy aprendiendo desarrollo frontend en el programa BA multiplica junto con la UTN y, 
-                cursando Big Data Analytics en el programa Codo a codo de la Ciudad de Buenos Aires donde aprenderé el maneje de flujo de datos masivos en planilla de cálculo,
-                armado de dashboard en Google Data Studio y Power BI, manejo de librerías más importantes en Python.</p>
-                <a href="" class="botonPrimario">Descargar mi cv</a>
-            </div> 
+    <div class="proyectos">
+        <div class="container2">
+            <h3>Big data - Codo a codo 4.0</h3>
+            <ul>
+                <li>Conceptos generales de Análisis de Datos y Big Data</li>
+                <li>Lógica</li>
+                <li>Algoritmos</li>
+                <li>Bases de Datos</li>
+                <li>Business Intelligence</li>
+                <li>Planillas de cálculo para Análisis de Datos</li>
+                <li>Informes y dashboards: Google Data Studio</li>
+                <li>Trabajo práctico - Modulo 1</li>
+            </ul>
+            <a class="cursos" href="https://datastudio.google.com/s/siLIgnzUwX8" target="_blank">
+                <img class="img-tp" src="./img/tp1 codo a codo.png" alt="Trabajo Practico"></a>
+    
+            <ul>
+                <li>Programación en Python</li>
+                <li>Introducción a la Programación orientada a objetos en Python: Clases, métodos.</li>
+                <li>Bases de datos en Python</li>
+                <li>Estadística</li>
+                <li>Librerías Python para análisis de datos</li>
+                <li>Proyecto final</li>
+            </ul>
+            <a class="cursos" href="" target="_blank">
+                <img class="img-tp" src="" alt="Proyecto final"></a>
+            <a class="cursos" href="" target="_blank">
+                <img class="img-tp" src="" alt="Proyecto final"></a>
+        </div>
+
+        <div class="container2">
+            <h3>Programación Web Inicial (FrontEnd Developer) - BA Multiplica 2.0/UTN.BA</h3>
+            <ul>
+                <li>Desarrollar el diseño básico de tu sitio en HTML5, CSS3 y Bootstrap</li>
+                <li>Utilizar el Framework de diseño Bootstrap</li>
+                <li>Aprender el lenguaje Javascript</li>
+                <li>Aplicar el diseño Front End a su Desarrollo</li>
+                <li><a class="cursos" href="">Trabajo práctico final</a></li>
+            </ul>
         </div>
     </div>
+   </section>
+    <footer id="footer">
+        <div class="text-footer">
+            <p>Andrea Perugini 2022&copy;</p>
+        </div>
+        
+        <div class="redes">
+            <a href="https://github.com/Andreap3006" target="_blank"><i class="fa-brands fa-github linkedin icon-footer"></i></a>
     
-
+            <a href="https://www.linkedin.com/in/andrea-perugini-ruiz-542890209" target="_blank">
+                <i class="fa-brands fa-linkedin linkedin icon-footer"></i></a>
+    
+            <a href="" target="_blank"><i class="fa-sharp fa-solid fa-envelope linkedin icon-footer"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
 

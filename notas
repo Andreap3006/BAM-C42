@@ -1,0 +1,81 @@
+<main>
+       <h2 id="enlace-interno">Mis Cursos</h2>
+
+    <div class="proyectos">
+        <div class="container2">
+            <h3>Big data - Codo a codo 4.0</h3>
+            <ul>
+                <li>Conceptos generales de Análisis de Datos y Big Data</li>
+                <li>Lógica</li>
+                <li>Algoritmos</li>
+                <li>Bases de Datos</li>
+                <li>Business Intelligence</li>
+                <li>Planillas de cálculo para Análisis de Datos</li>
+                <li>Informes y dashboards: Google Data Studio</li>
+                <li><a class="cursos" href="">Trabajo práctico - Modulo 1</a></li>
+                <li>Programación en Python</li>
+                <li>Introducción a la Programación orientada a objetos en Python: Clases, métodos.</li>
+                <li>Bases de datos en Python</li>
+                <li>Estadística</li>
+                <li>Librerías Python para análisis de datos</li>
+                <li><a class="cursos" href="">Trabajo práctico final</a></li>
+            </ul>
+        </div>
+
+        <div class="container2">
+            <h3>Programación Web Inicial (FrontEnd Developer) - BA Multiplica 2.0/UTN.BA</h3>
+            <ul>
+                <li>Desarrollar el diseño básico de tu sitio en HTML5, CSS3 y Bootstrap</li>
+                <li>Utilizar el Framework de diseño Bootstrap</li>
+                <li>Aprender el lenguaje Javascript</li>
+                <li>Aplicar el diseño Front End a su Desarrollo</li>
+                <li><a class="cursos" href="">Trabajo práctico final</a></li>
+            </ul>
+        </div>
+        
+        <div class="container2">
+            <h3>Power BI - Udemy</h3>
+            <ul>
+                <li><a class="cursos" href="">Trabajo práctico</a></li>
+                <li><a class="cursos" href="">Certificado</a></li>
+            </ul>
+        </div>
+    </div>
+   </main>
+
+   // css
+
+   .proyectos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.container2{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    width: 470px;
+    text-align: justify;
+    background-color: lightslategray;
+    border-radius: 5% 0% 5% 0%;
+}
+
+h3{
+    display: flex;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+.cursos{
+    color: black;
+    font-size: 16px;
+}
+
+<div class="container2">
+    <h3>Power BI - Udemy</h3>
+    <ul>
+        <li><a class="cursos" href="">Trabajo práctico</a></li>
+        <li><a class="cursos" href="">Certificado</a></li>
+    </ul>
+</div>

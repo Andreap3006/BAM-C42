@@ -2,12 +2,12 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: georgia;
 }
 
 body{
-    background-color: #1f7ea1;
+    background-color: #06304C;
     color: black;
-    font-family: georgia;
 }
 
 .inicio{
@@ -24,6 +24,7 @@ h1{
     color: white;
     width: 50%;
     padding-left: 15px;
+    font-size: 26px;
 }
 
 nav{
@@ -33,58 +34,64 @@ nav{
 .nav{
     display: flex;
     justify-content: space-evenly;
-    list-style: none; /*Aplicando esta propiedad y este valor, vamos a poder eliminar las bullets y los números*/
-    font-size: 0; /* truco por el uso de inline-block*/
+    list-style: none;
+    font-size: 0;
 }
 
 .navbar{
     position:relative;
-    top: 20px;
+    top: 18px;
     font-size: 14px;
 }
 
 li a {
     color: white;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 
 ul li:hover ul {
     display:block;
 }
-    
+
 .frase{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    color: white;
 }
 
 .container1{
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
 .card1{
-    border-radius: 3%;
-    border-color: black;
-    border: solid;
+    border-radius: 3% 0% 3% 0%;
     padding: 2px;
     margin: 0px;
     display: flex;
-    width: 650px;
-    height: 420px;
+    width: 60%;
+    background-color: lightslategray;
+    height: 520px;
     margin: 1rem;
 }
 
+.container-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
 .cardImg{
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     align-self: center;
     border-radius: 2%;
-    padding-left: 15px;
 }
 
 .contnCard1{
@@ -96,26 +103,83 @@ ul li:hover ul {
     justify-content: space-around;
 }
 
+.parrafos{
+    
+}
+
 .botonPrimario{
     border-radius: 5%;
-    border: solid lightslategray;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(37, 37, 37);
     padding: 6px;
     width: 150px;
     color: white;
-    background-color: gray;
+    background-color: #1f7ea1;
     text-decoration: none;
     display: flex;
     justify-content: center;
 }
 
-input{
-    margin-bottom: 1rem;
-    width: 200px;
-    outline: none;
-}
- 
-fieldset{
-    width: 210px;
-    margin: 1rem;
+h2{
+    padding: 20px;
+    text-align: center;
+    background-color: #155E8D;
+    color: white;
 }
 
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+}
+
+.container2{
+    padding: 15px 25px 15px 25px;
+    margin: 5px;
+    width: 60%;
+    text-align: justify;
+    background-color: lightslategray;
+    border-radius: 3% 0% 3% 0%;
+}
+
+h3{
+    display: flex;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+.cursos{
+    color: black;
+    font-size: 16px;
+}
+
+.img-tp{
+    margin: 18px;
+    width: 220px;
+    height: 160px;
+}
+
+footer{
+    background-color: #155E8D;
+    height: 60px;
+    display: flex;
+    color: white;
+}
+
+.text-footer{
+    width: 50%;
+    padding: 18px;
+}
+
+.redes{
+    font-size: 20px;
+}
+
+.icon-footer{
+    padding-top: 18px;
+}
+
+.linkedin{
+    color: #fff;
+    width: 100px;
+}
