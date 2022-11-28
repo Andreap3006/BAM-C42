@@ -55,6 +55,8 @@ ul li:hover ul {
     display:block;
 }
 
+
+
 .frase{
     display: flex;
     flex-direction: column;
@@ -72,7 +74,6 @@ ul li:hover ul {
 .card1{
     border-radius: 3% 0% 3% 0%;
     padding: 2px;
-    margin: 0px;
     display: flex;
     width: 60%;
     background-color: lightslategray;
@@ -103,10 +104,6 @@ ul li:hover ul {
     justify-content: space-around;
 }
 
-.parrafos{
-    
-}
-
 .botonPrimario{
     border-radius: 5%;
     box-shadow: 0.2rem 0.2rem 0.5rem rgb(37, 37, 37);
@@ -125,6 +122,8 @@ h2{
     background-color: #155E8D;
     color: white;
 }
+
+
 
 .proyectos{
     display: flex;
@@ -159,6 +158,7 @@ h3{
     height: 160px;
 }
 
+
 footer{
     background-color: #155E8D;
     height: 60px;
@@ -182,4 +182,66 @@ footer{
 .linkedin{
     color: #fff;
     width: 100px;
+}
+
+
+
+@media screen and (min-width: 400px) {
+    h1{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: white;
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    li a {
+        font-size: 0.7rem;
+    }
+
+    .frase{
+        text-align: center;
+    }
+    
+    .card1{
+        padding: 2px;
+        display: flex;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background-color: lightslategray;
+        height: auto;
+        margin: 1rem;
+        border-radius: 0%;
+    }
+    
+    .cardImg{
+        width: 300px;
+        height: 350px;
+        border-radius: 2%;
+    }
+    
+    .botonPrimario{
+        margin-top: 1.5rem;
+    }
+
+    .container2{
+        width: 80%;
+        border-radius: 0%;
+    }
+
+    .redes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .text-footer{
+        width: 65%;
+    }
+    
+    .linkedin{
+        width: 35%;
+        padding-left: 1.5rem;
+    }
 }
